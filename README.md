@@ -1,6 +1,19 @@
 # TraderJoe-Tract-Stat
 Profiling Census Tracts of all the Trader Joe locations
 
+## Data Source
+- https://www.traderjoes.com/pdf/locations/all-llocations.pdf
+- Copy Pasta Text from PDF to Excel
+- TextWrangler
+   - Remove Trading Hours
+   - Remove Alcohol
+   - Find `\n\n` ; Replace with `\n`
+   - Find `-([0-9][0-9][0-9][0-9])\n` ; Replace with `-\1\n~~`
+   - Find `\n` ; Replace with `|`
+   - Find `~~` . ; Replace with `\n`
+   - Find `|` ; Replace with `\t`
+
+## Links
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1Vwu_58574o6hsB2EnlQQTMPLKRllOOk-guxGMiRM9wA/edit?usp=sharing)
 - [Twitter](https://twitter.com/vr00n/status/1071153899107684352)
 - [Social Explorer Report](https://www.socialexplorer.com/tables/ACS2016_5yr/R11954660)
