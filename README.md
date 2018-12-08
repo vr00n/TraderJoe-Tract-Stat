@@ -28,8 +28,7 @@ Append Census Features to append Census geographies to your location data.
 ### Merge Geocodio and Social Explorer
 - Identify TJ census tracts in the Social explorer file by doing a vlookup
 
-### [Final Data File](https://github.com/vr00n/TraderJoe-Tract-Stat/blob/master/SOCIAL_EXPLORER_CTs.csv.zip)
-
+### [Final Data File](https://github.com/vr00n/TraderJoe-Tract-Stat/blob/master/SOCIAL_EXPLORER_CTs.csv.zip) 
 Use this File in your analysis.
 
 
@@ -37,7 +36,7 @@ Use this File in your analysis.
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1Vwu_58574o6hsB2EnlQQTMPLKRllOOk-guxGMiRM9wA/edit?usp=sharing)
 - [Twitter](https://twitter.com/vr00n/status/1071153899107684352)
 
-## Measures used:
+## Measures used to create the Social Explorer report:
 - % Total Population: White Alone
 - % Total Population: Under 5 Years
 - % Total Population: Two or More Races
@@ -145,9 +144,9 @@ Use this File in your analysis.
    - `% Population 25 Years and Over: Less than High School`
 - Where there is atleast a 125% difference between TJ and non-TJ group averages.
 - I use the TJ averages from thes features to identify eligible non-TJ census tracts
-- These eligible non-TJ census tracts form the basis of likely locations for the next Trader Joe's.
+- These eligible non-TJ census tracts form the basis of likely locations for the next Trader Joe's locations.
 
-## Likely next Trader Joes locations
+## Results - Likely next Trader Joes locations
 
 
 |  FIPS| Census Link |
