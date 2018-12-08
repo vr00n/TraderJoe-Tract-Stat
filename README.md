@@ -132,6 +132,20 @@ Use this File in your analysis.
 - % Households: Nonfamily Households: Male Householder
 - % Households: Nonfamily Households
 
+## Analysis
+- I created 2 groups of Census Tracts (TJs and non-TJs) and compared the averages across all the above measures.
+- I then exported these group averages to a [Google Sheet](https://docs.google.com/spreadsheets/d/1Vwu_58574o6hsB2EnlQQTMPLKRllOOk-guxGMiRM9wA/edit?usp=sharing) and Pivoted om them to estimate large differences between these Group Averages.
+- For example, the largest differences between the TJ and non-TJ group averages was seen in:
+   - `% Total Population: Asian Alone`
+   - `% Population 25 Years and Over: Doctorate Degree`
+   - `% Population 25 Years and Over: Professional School Degree`
+   - `% Total Population: Black or African American Alone`
+   - `% Civilian Population 18 Years and Over: Veteran: 18 to 64 Years`
+   - `% Population 25 Years and Over: Less than High School`
+- Where there is atleast a 125% difference between TJ and non-TJ group averages.
+- I use the TJ averages from thes features to identify eligible non-TJ census tracts
+- These eligible non-TJ census tracts form the basis of likely locations for the next Trader Joe's.
+
 ## Likely next Trader Joes locations
 
 
