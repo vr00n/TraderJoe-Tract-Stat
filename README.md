@@ -12,7 +12,8 @@ Profiling Census Tracts of all the Trader Joe locations
    - Find `\n` ; Replace with `|`
    - Find `~~` . ; Replace with `\n`
    - Find `|` ; Replace with `\t`
-- You should get a file with `CityName,Address`
+- Wrangle and clean as needed.  
+- You should get a file with `CityName,Address,Phone` of all Trader Joe Locations.
 
 - Use [Geocodio](https://geocod.io) and append `Census Features` to retrieve Census Tracts from Trader Joe (TJ) location addresses. [This file is here](https://github.com/vr00n/TraderJoe-Tract-Stat/blob/master/TJ_ALL_LOCS_ADDRESSES.csv)
 
