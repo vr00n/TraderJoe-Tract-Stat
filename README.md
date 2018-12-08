@@ -1,7 +1,7 @@
 # TraderJoe-Tract-Stat
 Profiling Census Tracts of all the Trader Joe locations
 
-## Data Source
+## Data Source and Wrangling
 - https://www.traderjoes.com/pdf/locations/all-llocations.pdf
 - Copy Pasta Text from PDF to Excel
 - TextWrangler
