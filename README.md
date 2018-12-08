@@ -1,7 +1,7 @@
 # TraderJoe-Tract-Stat
 Profiling Census Tracts of all the Trader Joe locations
 
-## Data Source and Wrangling
+## Data Sourcing and Wrangling
 - https://www.traderjoes.com/pdf/locations/all-llocations.pdf
 - Copy Pasta Text from PDF to Excel
 - TextWrangler
@@ -12,11 +12,24 @@ Profiling Census Tracts of all the Trader Joe locations
    - Find `\n` ; Replace with `|`
    - Find `~~` . ; Replace with `\n`
    - Find `|` ; Replace with `\t`
+- You should get a file with `CityName,Address`
+- Use [Geocodio](https://geocod.io) and append `Census Features` to retrieve Census Tracts from Trader Joe (TJ) location addresses. [This file is here](https://github.com/vr00n/TraderJoe-Tract-Stat/blob/master/TJ_ALL_LOCS_ADDRESSES.csv)
+
+### Social Explorer
+- Construct a [Social Explorer Report](https://www.socialexplorer.com/tables/ACS2016_5yr/R11954660) to gather census variables from Census. In this case I sourced from ACS 2016 (5-year estimates)
+- The report will need to be pruned to preserve relevant columns.
+
+### Merge Geocodio and Social Explorer
+- Identify TJ census tracts in the Social explorer file by doing a vlookup
+
+### [Final Data File](https://github.com/vr00n/TraderJoe-Tract-Stat/blob/master/SOCIAL_EXPLORER_CTs.csv.zip)
+
+Use this File in your analysis.
+
 
 ## Links
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1Vwu_58574o6hsB2EnlQQTMPLKRllOOk-guxGMiRM9wA/edit?usp=sharing)
 - [Twitter](https://twitter.com/vr00n/status/1071153899107684352)
-- [Social Explorer Report](https://www.socialexplorer.com/tables/ACS2016_5yr/R11954660)
 
 ## Measures used:
 - % Total Population: White Alone
