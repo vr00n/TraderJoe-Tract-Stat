@@ -1,0 +1,40 @@
+feature_name,coefficient,stderr,tstat,pvalue
+% Population 25 Years and Over: High School Graduate (Includes Equivalency),-0.066718196,16.68119325,-0.055521262,0.47786169
+% Population 25 Years and Over: Less than High School,-0.037176717,16.81070005,-0.036149179,0.485581766
+% Total Population: Black or African American Alone,-0.203748682,37.36416823,-0.013667688,0.494547574
+% Households: Family Households: Married-Couple Family,-0.047257736,42.22613322,-0.007690426,0.496932007
+% Total Population: 85 Years and Over,0.026478435,2.309213234,0.140255215,0.444229413
+% Total Population: 10 to 14 Years,-0.028779322,2.855582715,-0.103449627,0.458803239
+% Renter-Occupied Housing Units: Not Computed,-0.036553371,22.17329895,-0.013218545,0.49472674
+% Total Population: Some Other Race Alone,0.076976418,14.57655974,0.018253922,0.492718174
+% Civilian Population 18 Years and Over: Veteran: 18 to 64 Years,-0.056819906,8.464005742,-0.030715552,0.487748246
+Population 25 Years and Over:,0.053414405,0.086025695,2.780586127,0.002713903
+% Renter-Occupied Housing Units: 50 Percent or More,0.015736307,23.00764437,0.009494516,0.496212309
+% Total Population: 45 to 54 Years,0.031889379,4.129679417,0.048382158,0.480705921
+% Total Population: Asian Alone,0.016677015,15.17093594,0.012958474,0.494830484
+% Total Population: 18 to 24 Years,-0.017424496,9.488830921,-0.020077467,0.491990822
+% Total Population: American Indian and Alaska Native Alone,-0.034806912,7.613480814,-0.024043202,0.490409115
+% Total Population: 65 to 74 Years,-0.011844982,4.815050413,-0.035585807,0.485806373
+Median Age: Male Population,-0.075246735,0.060165473,-2.538634837,0.005565569
+Average Household Income (In 2016 Inflation Adjusted Dollars),0.037176654,0.024705593,6.112633351,4.93E-10
+% Renter-Occupied Housing Units: Less than 10 Percent,-0.017136798,9.891818724,-0.014044043,0.494397445
+% Total Population: Two or More Races,0.037285915,5.530615964,0.024548631,0.490207538
+% Households: Nonfamily Households: Female Householder,0.037524835,20.10714379,0.006461526,0.497422253
+Median Age:,-0.035682626,0.106707349,-1.007829592,0.156770205
+% Total Population: 15 to 17 Years,0.050315111,1.972510981,0.050519106,0.479854448
+% Civilian Population 18 Years and Over: Veteran: 65 Years and Over,0.010294282,6.439395095,0.014648654,0.494156266
+% Population 25 Years and Over: Some College,0.009504006,12.21124541,0.006724089,0.497317508
+% Households: Family Households: Other Family: Male Householder, No Wife Present,0.017244492,8.205928292,0.009615159,0.496164182
+% Total Population: Male,0.009178735,713.0339304,1.08E-04,0.499957047
+% Population 25 Years and Over: Professional School Degree,0.007439726,4.041405263,0.018861549,0.492475808
+% Renter-Occupied Housing Units: 30 to 49 Percent,0.021791591,19.7282718,0.003669027,0.498536279
+% Total Population: Under 5 Years,0.028808066,3.056715211,0.023567456,0.490598856
+Households:,0.015088486,0.049969048,1.278899574,0.100468727
+% Total Population: Native Hawaiian and Other Pacific Islander Alone,0.008344807,1.874608693,0.026670063,0.489361491
+% Total Population: 5 to 9 Years,-0.015494079,2.845587454,-0.014438446,0.494240118
+% Total Population: 75 to 84 Years,0.003860375,3.414377115,0.011858822,0.495269145
+% Total Population: Female,-0.02036524,713.0239317,-4.97E-05,0.499980191
+% Population 25 Years and Over: Doctorate Degree,-0.006966353,3.01498314,-0.006086717,0.497571777
+% Total Population: 55 to 64 Years,0.001157155,4.60634792,0.002022012,0.499193338
+% Total Population: 35 to 44 Years,7.29E-04,3.932380273,0.002045759,0.499183864
+Intercept,-1.447472936,0.014294256,-101.2625554,
